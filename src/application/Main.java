@@ -30,6 +30,7 @@ public class Main {
             throw new ParametrosInvalidosException("O segundo parâmetro deve ser maior que o primeiro");
         } else {
             int contagem = parametroDois - parametroUm;
+            System.out.println("Contagem:");
             for (int i = 0; i <= contagem; i++){
                 System.out.println(i);
             }
